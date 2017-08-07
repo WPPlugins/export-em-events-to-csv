@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Manager: Export events to CSV (addon)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Feb 10 2016 09:34:26 GMT+0100 (Mitteleuropäische "
+"Zeit)\n"
+"PO-Revision-Date: Mon Aug 15 2016 09:59:14 GMT+0200 (Mitteleuropäische "
+"Sommerzeit)\n"
+"Last-Translator: web_admin <h@web.dl>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: de_DE"
+
+#. Name of the plugin
+msgid "Export events to CSV (Addon for Events Manager)"
+msgstr "Events als CSV exportieren (Addon für Events Manager)"
+
+#. URI of the plugin
+msgid "${Plugin_Uri}"
+msgstr ""
+
+#. Description of the plugin
+msgid "Exports all Events and their locations into a CSV file."
+msgstr ""
+"Exportiert alle Veranstaltungen mit ihren Veranstaltungsorten in eine CSV-"
+"Datei."
+
+#. Author of the plugin
+msgid "Sven Hinse"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.svenhinse.de"
+msgstr ""
+
+#: ../inc/Admin.php:45
+msgid "Comma (,)"
+msgstr "Komma (,)"
+
+#: ../inc/Admin.php:47
+msgid "Semicolon (;)"
+msgstr "Semikolon (;)"
+
+#: ../inc/Controller.php:45
+msgid ""
+"This plugin cannot be activated because it requires the Events Manager "
+"plugin to be activated first. "
+msgstr "Bitte erst Events Manager aktivieren!"
+
+#: ../export-em-events-to-csv.php:26
+#, php-format
+msgid ""
+"This plugin cannot be activated because it requires at least PHP version "
+"%1$s. "
+msgstr ""
+"Das Plugin kann nicht aktiviert werden, da es mindestens die PHP-Version "
+"%1$s benötigt-."
+
+#: ../export-em-events-to-csv.php:29
+msgid "You are running PHP "
+msgstr "Du benutzt Version "
+
+#: ../inc/Admin.php:28
+msgid "Export events as CSV"
+msgstr "Events als CSV exportieren"
+
+#: ../inc/Admin.php:29
+msgid "Export Events as CSV"
+msgstr "Events als CSV exportieren"
+
+#: ../inc/Admin.php:39
+msgid "Export a CSV file of all your event data by clicking the button."
+msgstr "Klicken, um eine CSV-Datei mit allen Events zu exportieren."
+
+#: ../inc/Admin.php:42
+msgid "Select delimiter:"
+msgstr "Trennzeichen:"
+
+#: ../inc/Admin.php:64
+msgid "Export CSV file"
+msgstr "CSV-Datei exportieren"
+
+#: ../inc/Controller.php:47
+msgid "back"
+msgstr "zurück"
